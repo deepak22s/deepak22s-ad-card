@@ -1,0 +1,78 @@
+@font-face {
+  font-family: krk ;
+  src: url("https://fonts.google.com/specimen/Montserrat");
+}
+@font-face {
+  font-family: bigine ;
+  src: url("https://fonts.google.com/specimen/Fraunces");
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: hsl(30, 38%, 92%);
+    
+  }
+  
+  
+  .centered-content {
+    background-color: rgb(227, 235, 232);
+    border-radius: 15px;
+    
+  }
+  .image-mobile{
+    height: 230px;
+    width: 350px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .PERFUME{
+    font-size: 13px;
+    letter-spacing: 4px;
+    padding-top: 25px;
+    font-family: krk;
+  }
+  .heading-perfume{
+    font-family: "bigine";
+    font-weight: 700;
+  }
+  .des
+  {
+    font-family: krk;
+    font-size: 18px;
+    color: rgb(109, 111, 112);
+  }
+  .cost{
+    color: rgb(8, 81, 36);
+    font-family: "krk";
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .cost-1{
+    padding-left: 15px;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+    font-size: 12px;
+    vertical-align: middle;
+    color: rgb(101, 104, 106);
+  }
+  .add{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(5, 85, 5);
+    color: white;
+    height: 45px;
+    width:250px;
+    border-radius: 10px;
+    font-family: krk;
+    vertical-align: middle;
+    font-weight: 500;
+    border-color: transparent;
+    }
+
+    .svg-e{
+      vertical-align: middle;
+      padding-bottom: 15px;
+    }
